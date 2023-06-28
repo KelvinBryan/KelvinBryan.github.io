@@ -1,0 +1,91 @@
+*{
+    text-decoration: none;
+    list-style: none;
+}
+body {
+    font-style: 14px;
+    overflow-x: hidden;
+    background-color: #4B0082;
+}
+/* #region nav */
+.navbar{
+    background-color: rgba(131, 83, 141, 0.726) !important;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+.navbar li:hover{
+    background-color: #4B0082;
+}
+.fa-sharp{
+    font-size: 30px;
+}
+.navbar-nav{
+    position: relative;
+    left: 750px;
+}
+.dropdown-menu{
+    background-color: rgba(131, 83, 141, 0.726) !important;
+}
+.dropdown-item{
+    color: white;
+}
+/* #endregion */
+
+
+
+/* #region-login */
+.inputEmail{
+    width: 600px;
+    padding: 10px;
+    border: none;
+    font-size: 1.8em;
+    border-radius: 8px;
+    position: relative;
+    left: 15px;
+}
+.form-control{
+    width: 600px;
+    padding: 10px;
+    border: none;
+    font-size: 1.8em;
+    border-radius: 8px;
+}
+.meio-login{
+    color: white;
+    position: relative;
+    top: 400px;
+    left: 800px;
+}
+.btn{
+    width: 200px;
+    padding: 10px; 
+    position: relative;
+    left: 210px;
+}
+
+
+/* #region footer */
+footer {
+    background-color: rgba(255, 255, 255, 0.726);
+    color: #4B0082;
+}
+
+.footer-inner {
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    padding: 70px;
+}
+hr {
+    margin-left: auto;
+    margin-right: auto;
+    border-width: 3px;
+}
+
+.container-div{
+    position: relative;
+    top: 800px;
+}
+/* #endregion */

@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <!-- aos -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- boxicons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="/RisoOdonto/css/style.css">
+    <!-- favicon -->
+    <link rel="shortcut icon" href="/RisoOdonto/img/dentista (1).png (1).png" type="image/x-icon">
+    <title> Riso Odonto</title>
+</head>
+<body>
+    <!-- #region mensagem exibida -->
+    <div id="mensagem">
+        <div id="fechar">&times;</div>
+        <img src="/RisoOdonto/img/50OFF!.png" alt="Imagem de exemplo">
+        <h1>Bem-vindo a RISO ODONTO!</h1>
+        <p>Ofertas imperdiveis no mes de julho.</p>
+    </div>
+    <!-- endregion -->
+
+    <!-- #region-nav -->
+    <nav class="navbar navbar-expand-lg sticky-top border-bottom">
+        <div class="container">
+          <a class="navbar-brand d-flex text-white" href="#home"><i class="fa-sharp fa-solid fa-tooth" style="color: #ffffff;"></i> RISO ODONTO</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active text-white" aria-current="page" href="#home">HOME</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  SOBRE NÓS
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#localizacao">LOCALIZAÇÃO</a></li>
+                  <li><a class="dropdown-item" href="#convenio">CREDENCIADOS</a></li>
+                  <li><a class="dropdown-item" href="#contato">CONTATO</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex" action="/login.html" >
+              <button class="btn btn text-white" style="background-color: #360656;" type="submit">LOGIN</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <!-- endregion -->
+        <main>
+            <!-- #region-home-->
+            <section id="home">
+                <div class="home-container">
+                    <img src="/RisoOdonto/img/banner.png" alt="banner">
+                    <div class="home-inner" data-aos="fade-right">
+                        <h1>PLANOS ODONTOLOGICOS</h1>
+                        <h2>A PARTIR DE R$ 29,90</h2>
+                        <p>Riso Odonto é líder em planos acessíveis. Contrate para você, sua família ou empresa e encontre motivos para sorrir.</p>
+                        <a href="#sobre-nos" class="botao">CONHEÇA A RISO ODONTO</a>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- endregion -->
+
+            <!-- #region-agendamento -->
+            <section id="agendamento">
+                <form action="agradecimento.html" >
+                <div class="agendamento-container">
+                    <h1>AGENDAR AVALIAÇÃO</h1>
+                    <h4>Preencha o formulário abaixo ou entre em contato por telefone!</h4>
+                    <i class="fa-brands fa-whatsapp"></i><span>(11)97968.2022</span>
+                    <ul class="agendamento-inner">
+                        <li><input type="text" placeholder="Nome:" required></li><br>
+                        <li><input type="email" placeholder="E-mail:" required></li><br>
+                        <li><input type="tel" placeholder="Cel:" required onkeypress="$(this).mask('(00)00000-0000')"></li>
+                        <br>
+                        <br>
+                        <li>
+                            <input type="checkbox" required>
+                            <span>Aceito receber atualizações no meu Email</span>
+                        </li>
+                        <li>
+                            <br>
+                          
+                                <input type="submit" value="ENVIAR MENSAGEM">
+                            </form>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            
+            
+            <!-- endregion -->
+
+            <!-- #region-planos -->
+            <section id="nossos-planos">
+                <div>
+                    <h1 class="meio">Como contratar</h1>
+                    <div class="center">
+                        <div class="center-item">
+                            <img src="/RisoOdonto/img/plano1.png" alt="plano1">
+                            <div>
+                                <h3>Inicial</h3>
+                                <ul>
+                                    <li>Consulta</li>
+                                    <br>
+                                    <li>Limpeza</li>
+                                    <br>
+                                    <li>Emergência</li>
+                                    <br>
+                                    <li>Radiografia (Raio-x)</li>
+                                    <br>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="center-item">
+                            <img src="/RisoOdonto/img/plano2.png" alt="plano2">
+                            <div>
+                                <h3>Dental Assist</h3>
+                                <ul>
+                                    <li>Consulta</li>
+                                    <li>Limpeza</li>
+                                    <li>Emergência (24H)</li>
+                                    <li>Radiografia (Raio-x)</li>
+                                    <li>Extrações</li>
+                                    <li>Odontopediatria</li>
+                                    <li>Restaurações em amalgama</li>
+                                    <li>+Tratamento em canal</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="center-item">
+                            <img src="/RisoOdonto/img/plano3.png" alt="plano3">
+                            <div>
+                                <h3>Pleno</h3>
+                                <ul>
+                                    <li>Consulta</li>
+                                    <li>Limpeza</li>
+                                    <li>Emergência (24H)</li>
+                                    <li>Extrações</li>
+                                    <li>Odontopediatria</li>
+                                    <li>Restaurações em amalgama</li>
+                                    <li>Tratamento em canal</li>
+                                    <li>Restaurações em resina</li>
+                                    <li>Retratamento de canal</li>
+                                    <li>Cirurgias</li>
+                                    <li>+Prótese</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- endregion -->
+
+            <!-- #region-sobre -->
+            <section id="sobre-nos">
+                <div class="sobre-container">
+                    <div class="sobre-text">
+                        <h1>Sobre nós</h1>
+                        <p>Somos uma marca com competência e experiência comprovada em mais de 30 anos no mercado de planos odontológicos.</p>
+                        <p>Dominamos o lado técnico e entendemos as necessidades das pessoas. Cuidamos de cada beneficiário ao nos fazermos presentes em toda a sua jornada - da contratação ao agendamento, do diagnóstico ao final do tratamento. Para nós, estar presente em todos os detalhes é uma demonstração de cuidado e, com isso, buscamos oferecer a melhor solução em serviços de saúde bucal.</p>
+                    </div>
+                    <div class="linha-vertical"></div>
+                    <div class="sobre-images">
+                        <img src="/RisoOdonto/img/dente (2).png" class="sobre-img" alt="">
+                    </div>
+                </div>
+            </section>
+            <!-- endregion -->
+
+            <!-- #region-localizacao -->
+            <section id="localizacao">
+                <div class="localizacao-container">
+                    <h1>Na Melhor localização de São Paulo</h1>
+                    <h4>Av. Paulista, 900 - 13° andar</h4>
+                    <h4>CEP: 01211-100 - São Paulo - SP</h4>
+                    <br>
+                    <a class="botao-maps" href="https://www.google.com.br/maps/place/Benatti+Odontologia/@-23.5658538,-46.6539219,17z/data=!3m1!4b1!4m5!3m4!1s0x94ce59c786bdd907:0x8db9f69f6c4cedc4!8m2!3d-23.5658538!4d-46.6517332" target="_blank">Ver Mapa</a>
+                </div>
+            </section>
+        <!-- endregion -->
+
+        <!-- #region-convenio -->
+            <section id="convenio">
+                <div class="convenio-container">
+                    <h1>TODOS OS PLANOS DE SAÚDE EM UM SÓ LUGAR</h1>
+                    <ul class="convenio-inner" data-aos="fade-right">
+                        <li><img src="/RisoOdonto/img/Convenios/allianz.gif" alt=""></li>
+                        <li><img src="/RisoOdonto/img/Convenios/ameplan.gif" alt=""></li>
+                        <li><img src="/RisoOdonto/img/Convenios/amil-facil.gif" alt=""></li>
+                        <li><img src="/RisoOdonto/img/Convenios/amil-one.gif" alt=""></li>
+                    </ul>
+                    <ul class="convenio-inner" data-aos="fade-right">
+                        <li><img src="/RisoOdonto/img/Convenios/amil.gif" alt=""></li>
+                        <li><img src="/RisoOdonto/img/Convenios/biosaude.gif" alt=""></li>
+                        <li><img src="/RisoOdonto/img/Convenios/biovida.gif" alt=""></li>
+                        <li><img src="/RisoOdonto/img/Convenios/bluemed.gif" alt=""></li>
+                    </ul>
+                    <ul class="convenio-inner" data-aos="fade-right">
+                        <li><img src="/RisoOdonto/img/Convenios/bradesco-saude.gif" alt=""></li>
+                        <li><img src="/RisoOdonto/img/Convenios/greenline.gif" alt=""></li>
+                        <li><img src="/RisoOdonto/img/Convenios/intermedica.gif" alt=""></li>
+                        <li><img src="/RisoOdonto/img/Convenios/medtour.gif" alt=""></li>
+                    </ul>
+                    <ul class="convenio-inner" data-aos="fade-right">
+                        <li><img src="/RisoOdonto/img/Convenios/portoseguro.gif" alt=""></li>
+                        <li><img src="/RisoOdonto/img/Convenios/prevent.gif" alt=""></li>
+                        <li><img src="/RisoOdonto/img/Convenios/saocristovao.gif" alt=""></li>
+                        <li><img src="/RisoOdonto/img/Convenios/saomiguel.gif" alt=""></li>
+                    </ul>
+                    <ul class="convenio-inner" data-aos="fade-right">
+                        <li><img src="/RisoOdonto/img/Convenios/sulamerica-saude.gif" alt=""></li>
+                        <li><img src="/RisoOdonto/img/Convenios/trasmontano.gif" alt=""></li>
+                        <li><img src="/RisoOdonto/img/Convenios/unihosp.gif" alt=""></li>
+                        <li><img src="/RisoOdonto/img/Convenios/unimed_guarulhos.gif" alt=""></li>
+                    </ul>
+                </div>
+            </section>
+            <!-- endregion -->
+
+            <!-- #region-contato  -->
+            <section id="contato">
+                <footer>
+                    <div class="footer-container">
+                        <div class="direita">
+                            <ul>
+                                <li class="direita"><h3>Central de Ajuda</h3></li>
+                                <li class="direita"><h3>Dúvidas, reclamações e sugestões</h3></li>
+                                <li class="direita">
+                                    <h3>(11) 3040.5059</h3>
+                                </li>  
+                            </ul>
+                        </div>
+                        <div class="esquerda">
+                            <ul>
+                                <li><h3>ACESSO RAPIDO</h3></li>
+                                <li><i class="fa-solid fa-chevron-right" style="color: #360656;"></i> <a href="#home">HOME</a></li>
+                                <li><i class="fa-solid fa-chevron-right" style="color: #360656;"></i> <a href="#agendamento">AGENDAR AVALIAÇÃO</a></li>
+                                <li><i class="fa-solid fa-chevron-right" style="color: #360656;"></i> <a href="#localizacao">LOCALIZAÇÃO</a></li>
+                                <li><i class="fa-solid fa-chevron-right" style="color: #360656;"></i> <a href="#convenios">CONVÊNIOS CREDENCIADOS</a></li>
+                                <li><i class="fa-solid fa-chevron-right" style="color: #360656;"></i> <a href="#nossos-planos">NOSSOS PLANOS</a></li>
+                            </ul>
+                        </div>
+            
+                        <br><br>  
+                        <hr color="#4B0082" width="50%">
+            
+                        <ul class="footer-inner">
+                            <li><h4>Riso Odonto</h4></li>
+                            <li><i class="fa-brands fa-facebook"></i></li>
+                            <li><i class="fa-brands fa-instagram"></i></li>
+                            <li><i class="fa-brands fa-whatsapp"></i></li>
+                            <li><i class="fa-brands fa-youtube"></i></li>
+                            <li><h4>&copy; All rights reserved 2012</h4></li>
+                        </ul>
+                    </div>
+                    <a class="whatsapp-link" href="https://web.whatsapp.com/send?phone=5511979682022" target="_blank"> <i class="fa-brands fa-whatsapp"></i> </a>
+                
+                </footer>
+            </section>
+            <!-- #endrerion -->
+        </main>
+    </div>
+
+
+
+<!-- script -->
+    <!-- bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <!-- jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
+    <!-- aos -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Myscript -->
+    <script src="/RisoOdonto/script/script.js"></script>
+</body>
+</html>
